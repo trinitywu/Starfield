@@ -67,8 +67,6 @@ class OddballParticle extends Particle
     myX = 300;
     myY = 300;
     myAngle = Math.random()*2*Math.PI;
-    mySpeed = Math.random()*2;
-    myColor = color((int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*240));
     mySize = (int)(Math.random()*70)+50;
     img = loadImage("blue.png");
   }
@@ -94,8 +92,6 @@ class SecondOddball extends Particle
     myX = 300;
     myY = 300;
     myAngle = Math.random()*2*Math.PI;
-    mySpeed = Math.random()*2;
-    myColor = color((int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*240));
     mySize = (int)(Math.random()*20)+50;
     img = loadImage("cyanamongus.png");
   }
