@@ -7,7 +7,7 @@ void setup()
   {
     parts[i] = new Particle();
     parts[998] = new OddballParticle();
-    parts[999] = new secondOddball();
+    parts[999] = new SecondOddball();
     stars[i] = new Star();
   }
 }
@@ -87,9 +87,9 @@ class OddballParticle extends Particle
     image(img, (float)myX, (float)myY, 1.5*mySize, mySize);
   }
 }
-class secondOddball extends Particle
+class SecondOddball extends Particle
 {
-  secondOddball()
+  SecondOddball()
   {
     myX = 300;
     myY = 300;
